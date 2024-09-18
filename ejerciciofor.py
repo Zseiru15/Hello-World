@@ -94,3 +94,5 @@ def numeros():
     for i in range(cantidad+1):
         print("*" * i)
 numeros()
+
+print("------------------------------------------------")
