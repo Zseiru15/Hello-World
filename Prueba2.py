@@ -113,25 +113,23 @@ def suma_dos_valores(a, b):
 
 # print("------------------------------------------------")
 
-def eleccion():
-    import random
-    global piedra, papel, tijera
-    usuario1= random.choice(["piedra", "papel", "tijera"])
-    print(usuario1)
-    usuario2=random.choice(["piedra", "papel", "tijera"])
-    print(usuario2)
-    usuario2=usuario2.lower()
-    if usuario1==usuario2:
-        print("empate")
-    elif (usuario1 == "piedra" and usuario2 == "papel") or (usuario1 == "piedra" and usuario2 == "tijera"):
-        print("usuario1 gana")
-    elif (usuario1 == "tijera" and usuario2 == "papel"):
-        print("usuario1 gana")
-    elif (usuario1 == "papel" and usuario2 == "piedra"):
-        print("usuario1 gana")
-    else:
-        print("usuario2 gana")
-    return   
-eleccion()
+# def eleccion():
+#     import random
+#     usuario1= random.choice(["piedra", "papel", "tijera"])
+#     print(usuario1)
+#     usuario2=random.choice(["piedra", "papel", "tijera"])
+#     print(usuario2)
+#     if usuario1==usuario2:
+#         print("empate")
+#     elif (usuario1 == "piedra" and usuario2 == "tijera"):
+#         print("usuario1 gana")
+#     elif (usuario1 == "tijera" and usuario2 == "papel"):
+#         print("usuario1 gana")
+#     elif (usuario1 == "papel" and usuario2 == "piedra"):
+#         print("usuario1 gana")
+#     else:
+#         print("usuario2 gana")
+#     return   
+# eleccion()
 
 # print("------------------------------------------------")
