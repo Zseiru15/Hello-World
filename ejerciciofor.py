@@ -131,16 +131,16 @@ import time
 
 # print("------------------------------------------------")
 
-def frase():
-    palabra=str(input("por favor ingresar palabra: "))
-    letra=str(input("ingrese la letra: "))
-    contador=0
-    for i in palabra:
-        if i==letra:
-            contador=contador+1
-    print("la letra (",letra,") aparece (",contador,") veces en la palabra")
-    return
-frase()
+# def frase():
+#     palabra=str(input("por favor ingresar palabra: "))
+#     letra=str(input("ingrese la letra: "))
+#     contador=0
+#     for i in palabra:
+#         if i==letra:
+#             contador=contador+1
+#     print("la letra (",letra,") aparece (",contador,") veces en la palabra")
+#     return
+# frase()
 
 # def frase():
 #     palabra=str(input("por favor ingresar palabra: "))
