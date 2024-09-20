@@ -1,4 +1,4 @@
-# import time
+import time
 # def ejercicio1 ():
 #     palabra=str(input("por favor ingresar palabra: "))
 #     cantidad=int(input("ingrese la cantidad de veces: "))
@@ -23,7 +23,7 @@
 
 # print("------------------------------------------------")
 
-import time
+# import time
 # def ejercicio4 ():
 #     cantidad1=int(input("ingrese su año de nacimiento: "))
 #     cantidad2=int(input("ingrese el presente año: "))
@@ -89,10 +89,67 @@ import time
 
 # print("------------------------------------------------")
 
-def numeros():
-    cantidad=int(input("ingrese la cantidad de asteriscos: "))
-    for i in range(cantidad+1):
-        print("*" * i)
-numeros()
+# def numeros():
+#     cantidad=int(input("ingrese la cantidad de asteriscos: "))
+#     for i in range(cantidad+1):
+#         print("*" * i)
+# numeros()
 
-print("------------------------------------------------")
+# print("------------------------------------------------")
+
+# def descubir_contraseña():
+#     contraseña="123456789"
+#     contraseña_ingresada=""
+#     intento_ingresado=int(input("por favor ingrese la cantidad de intentos: "))
+#     intento=1
+#     while contraseña_ingresada != contraseña :
+#         contraseña_ingresada=str(input("ingrese la contraseña: "))
+#         if contraseña_ingresada != contraseña:
+#             print("contraseña incorrecta")
+#         elif contraseña_ingresada==contraseña:
+#             print("contraseña correcta")
+#             break
+#         if intento==intento_ingresado:
+#             print("se llego al limite de intentos")
+#             break
+#         intento=intento+1
+# descubir_contraseña()
+
+# def descubir_contraseña():
+#     contraseña="123456789"
+#     contraseña_ingresada=""
+#     intentos=0
+#     while contraseña_ingresada != contraseña :
+#         contraseña_ingresada=str(input("ingrese la contraseña: "))
+#         intentos+=1
+#         if intentos==3:
+#             print("se han excedido los intentos, el programa se cerrará")
+#             break
+#         elif contraseña_ingresada!= contraseña:
+#             print("Contraseña incorrecta, intento ", intentos)
+# descubir_contraseña()
+
+# print("------------------------------------------------")
+
+def frase():
+    palabra=str(input("por favor ingresar palabra: "))
+    letra=str(input("ingrese la letra: "))
+    contador=0
+    for i in palabra:
+        if i==letra:
+            contador=contador+1
+    print("la letra (",letra,") aparece (",contador,") veces en la palabra")
+    return
+frase()
+
+# def frase():
+#     palabra=str(input("por favor ingresar palabra: "))
+#     letra=str(input("ingrese la letra: "))
+#     for i in letra:
+#         conteo=palabra.count(letra)
+#         print("la letra (",letra,") aparece (",conteo,") veces en la palabra")
+#     return
+# frase()
+
+# print("------------------------------------------------")
+
